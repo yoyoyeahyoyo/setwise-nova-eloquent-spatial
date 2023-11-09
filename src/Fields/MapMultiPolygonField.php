@@ -5,10 +5,10 @@ namespace Mostafaznv\NovaMapField\Fields;
 use Laravel\Nova\Fields\Field;
 use Laravel\Nova\Fields\SupportsDependentFields;
 use Laravel\Nova\Http\Requests\NovaRequest;
-use MatanYadaev\EloquentSpatial\Objects\LineString;
-use MatanYadaev\EloquentSpatial\Objects\MultiPolygon;
-use MatanYadaev\EloquentSpatial\Objects\Point;
-use MatanYadaev\EloquentSpatial\Objects\Polygon;
+use Setwise\EloquentSpatial\Objects\LineString;
+use Setwise\EloquentSpatial\Objects\MultiPolygon;
+use Setwise\EloquentSpatial\Objects\Point;
+use Setwise\EloquentSpatial\Objects\Polygon;
 use Mostafaznv\NovaMapField\Rules\MultiPolygonRequiredRule;
 use Mostafaznv\NovaMapField\Traits\WithMapProps;
 

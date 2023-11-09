@@ -1,10 +1,10 @@
 <?php
 
-namespace Mostafaznv\NovaMapField\Traits;
+namespace Setwise\NovaMapField\Traits;
 
 use Illuminate\Support\Arr;
-use MatanYadaev\EloquentSpatial\Objects\Geometry;
-use MatanYadaev\EloquentSpatial\SpatialBuilder;
+use Setwise\EloquentSpatial\Objects\Geometry;
+use Setwise\EloquentSpatial\SpatialBuilder;
 
 /**
  * @method static SpatialBuilder query()

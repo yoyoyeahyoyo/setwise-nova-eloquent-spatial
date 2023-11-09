@@ -5,7 +5,7 @@ namespace Mostafaznv\NovaMapField\Fields;
 use Laravel\Nova\Fields\Field;
 use Laravel\Nova\Fields\SupportsDependentFields;
 use Laravel\Nova\Http\Requests\NovaRequest;
-use MatanYadaev\EloquentSpatial\Objects\Point;
+use Setwise\EloquentSpatial\Objects\Point;
 use Mostafaznv\NovaMapField\DTOs\PointValue;
 use Mostafaznv\NovaMapField\Rules\PointRequiredRule;
 use Mostafaznv\NovaMapField\Traits\WithMapProps;
