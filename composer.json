@@ -17,7 +17,7 @@
     "require": {
         "illuminate/support": "^8.0|^9.0|^10.0",
         "laravel/nova": "^4.0",
-        "mstaack/laravel-postgis":"^5.0"
+        "setwise/postgres-spatial":"*"
     },
     "autoload": {
         "psr-4": {
